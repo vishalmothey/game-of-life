@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+
+  tomcat:
+    image: $BUILD_NUMBER
+    ports: 
+      - "8080:8080"
+    networks:
+      - frontend
+    deploy:
+      replicas: 3
+
+networks:
+  frontend:    
