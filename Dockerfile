@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat:9.0
 
 MAINTAINER hemanth.sai01@gmail.com
 
