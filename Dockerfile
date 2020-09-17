@@ -1,4 +1,4 @@
-FROM hemanthpeddi/hemanthtomcat1
+FROM hemanthpeddi/hemanthtomcat1:1
 
 MAINTAINER hemanth.sai01@gmail.com
 
