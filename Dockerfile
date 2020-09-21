@@ -1,6 +1,5 @@
-FROM tomcat:8.0
+FROM tomcat:8.0-alpine
 
-USER root
 MAINTAINER hemanth.sai01@gmail.com
 
 COPY ["jenkins.war","/usr/local/tomcat/webapps/"]
